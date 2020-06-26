@@ -11,4 +11,9 @@ public class SampleRestController {
     public String sample() {
         return "Hello sample endpoint";
     }
+
+    @GetMapping("/hi")
+    public String sayHi() {
+        return "Hi Y'all";
+    }
 }
